@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Authentication</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <form action="" id="form-login">
+      <h1 class="form-heading">Form đăng nhập</h1>
+      <div class="form-group">
+        <i class="far fa-user"></i>
+        <input type="text" class="form-input" id="username" value="binh@tino.org" placeholder="Tên đăng nhập">
+      </div>
+      <div class="form-group">
+        <i class="fas fa-key"></i>
+        <input type="password" class="form-input" id="password" value="Tino@123" placeholder="Mật khẩu">
+        <div id="eye">
+          <i class="far fa-eye"></i>
+        </div>
+      </div>
+      <input type="submit" value="Đăng nhập" class="form-submit">
+      <div>
+        <button type="button" style="margin-top: 20px;" id="btn-get-contacts">Get Contacts</button>
+      </div>
+    </form>
+
+  </div>
+  <script src="axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
